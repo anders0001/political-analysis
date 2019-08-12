@@ -1,0 +1,60 @@
+INTERESTING PEOPLE
+- Felix Biessmann (Machine Learning professor in Berlin)
+- Tina Klüwer (NLP Chatbot startup)
+
+	- https://www.vice.com/de/article/597yy3/seltsamer-tagesschau-bericht-beherrscht-afd-das-halbe-internet
+	- Alto Analytics
+	- Onaiza’s Visualization dudes
+		- quid.com
+		- Quilt.AI
+		- Discover.AI
+
+	- Public Data & Media Analysis
+	- Problem: No knowledge over current state of debate
+	- Idea: Connect data sources and derive public sentiment
+	- Sources: Youtube, Twitter, Traditionelle Medien (Spiegel)
+https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f
+
+INTERESTING SOURCES
+-- https://mediabiasfactcheck.com/left/
+-- Deinewahl 
+-- Voteswiper 
+-- Logbuch netzpolitik 
+-- Deutschdata.com
+-- Rezo: Zerstörung der CDU
+-- https://voteview.com/
+-- http://search.politicalmashup.nl/
+-- https://dssg-berlin.org/
+
+POLITICAL IDEOLOGY PREDICTION
+
+IMPORTANT PAPERS
+-- Political Ideology Detection Using Recursive Neural Networks; Iyyer, et al. (2014)
+-- Beyond Binary Labels: Political Ideology Prediction of Twitter Users; Preotiuc-Pietro et al. (2017)
+-- Word Embeddings for the Estimation of Ideological
+Placement in Parliamentary Corpora; Rheault & Cochrane (2018)
+-- Distributed
+Representations of Words and Phrases and their Compositionality; Mikolov, et al. (2013)
+-- Cross-Lingual Classifcation of Topics in Political Texts; Glavas et al. (2017)
+-- Classification Accuracy as a Substantive Quantity
+of Interest: Measuring Polarization in Westminster Systems; Peterson & Spirling (2018)
+-- Automating Political Bias Prediction; Biessmann (2015)  >> https://arxiv.org/pdf/1608.02195.pdf (MAIN SOURCE)
+
+
+AVAILABLE LABELLED DATASETS
+- preotiuc.ro
+- DW-NOMINATE
+- Convote Dataset
+- Ideological Book Campus
+- Oyez (US Supreme Court)
+- DIME (Database on Ideology, Money in Politics, and Elections > Stanford U)
+
+
+AVAILABLE METHODS
+- WordScores (Laver et al. 2003)
+- WordFish (Slapin & Proksch 2008)
+- Supervised: RNN
+- Bag of Words
+- (Unsupervised) Word Embedding (Gensim, fastText, word2vec)
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+- ELMO

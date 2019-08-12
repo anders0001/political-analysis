@@ -1,0 +1,46 @@
+PROCESS
+
+1 Scrape all the text plus a label of right (5k)/left (5k)
+DONE
+
+2 Tokenize (word2vec) the text with spacy
+	- Remove stopwords
+	- Lemmatize
+
+3 Transform your strings (words) into vectors (see above array) = X data (bearbeitet) 
+
+4 Create an array of right/left labels - Y data
+
+5 Create a keras model that looks fit for purpose
+probably embedding plus lstm, plus dense
+
+6 Load pre-trained word embedding weights from glove / gensim into the embedding layer of your network
+
+7 Start to train it
+
+
+https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
+http://search.politicalmashup.nl
+
+
+
+------------------------------------------------------------------------------
+
+WORD EMBEDDING (text preparation > y-hat)
+- Use Gensim to vectorize text
+
+TRAIN MODEL (labelled dataset > y)
+- Take pretrained US dataset
+- Convert to German using Google translate (https://www.deepl.com/de/translator)
+- Run RNN over the model
+
+PREDICTION (make prediction about ideological slant)
+- Take Youtube-Input
+- Run text through trained model
+- Rank from right (-1) to left (+1)
+
+
+--------------------------------------------------------------------------------
+
+WEBSITE
+https://www.political-analysis.dev/
