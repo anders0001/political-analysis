@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 
 
 #Setup Environment & Variables
-API_KEY				= "AIzaSyAhYyZhCyQ2jAuu_0f8YmgC2-SLf-6gvy0"
+API_KEY				= 
 youtube				= build('youtube', 'v3', developerKey=API_KEY)
 video_ids 			= []
 title 				= []
