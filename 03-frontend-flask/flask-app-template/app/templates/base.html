@@ -1,0 +1,42 @@
+{% extends "bootstrap_base.html" %}
+
+{%block title%}Base{%endblock%}
+
+{%block body_content%}
+
+<div class="container">
+	<div class="row">
+		<div class="span12">
+
+			<div class="navbar">
+			  <div class="navbar-inner">
+			    <a class="brand" href="#">Political Analysis</a>
+			    <ul class="nav">
+			      <li class="active"><a href="/">Home</a></li>
+			      <li><a href="/list">Sources</a></li>
+			      <li><a href="/plotly">Plotly Charts</a></li>
+			    </ul>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+    {% with messages = get_flashed_messages() %}
+	    {% if messages %}
+	    <div class="row">
+	    	<div class="span8 offset4">
+			    <ul>
+			    {% for message in messages %}
+			        <li>{{ message }} </li>
+			    {% endfor %}
+			    </ul>
+			</div>
+		</div>
+	    {% endif %}
+    {% endwith %}
+
+	{%block main_content%}{%endblock%}
+
+</div>
+
+{%endblock%}
